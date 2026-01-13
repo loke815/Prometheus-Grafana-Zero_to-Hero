@@ -13,6 +13,6 @@
 `helm install grafana grafana/grafana`
 
 ## Expose Grafana Service
-```
-`kubectl expose service grafana --type=NodePort --target-port=3000 --name=grafana-ext`
-```
+
+     kubectl expose service grafana --type=NodePort --target-port=3000 --name=grafana-ext
+
